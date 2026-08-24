@@ -1,0 +1,8 @@
+# Install the local LeRobot package with recording and SO-101 hardware support.
+-e ./lerobot[core_scripts]
+
+# YOLO detection/training. OpenCV is already supplied by LeRobot.
+ultralytics
+
+# Pure-Python URDF forward/inverse kinematics; works on native Windows.
+ikpy>=4.0.0,<5.0.0

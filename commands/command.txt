@@ -1,0 +1,8 @@
+# Train model with output learning status:
+
+python scripts\train_act.py --resume 2>&1 ` | Tee-Object -FilePath ".\outputs\train_logs\act_data3_train.log"
+python scripts\train_act.py 2>&1 ` | Tee-Object -FilePath ".\outputs\train_logs\act_data4_train.log"
+
+# Plot Training Curve:
+
+python scripts\plot_learning_curve.py ` ".\outputs\train_logs\act_data3_train.log"

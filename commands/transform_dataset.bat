@@ -1,0 +1,11 @@
+python -m lerobot.scripts.lerobot_edit_dataset ^
+  --repo_id manual_data1 ^
+  --root F:\Documents\lerobot_ws\training\manual_data1 ^
+  --new_repo_id manual_data1_gop2 ^
+  --new_root F:\Documents\lerobot_ws\training\manual_data1_gop2 ^
+  --operation.type reencode_videos ^
+  --operation.rgb_encoder.vcodec h264 ^
+  --operation.rgb_encoder.g 2 ^
+  --operation.rgb_encoder.crf 23 ^
+  --operation.rgb_encoder.fast_decode 1 ^
+  --operation.num_workers 2
