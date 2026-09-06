@@ -35,8 +35,8 @@ HIL_REGION_COLOR = "#fff0d8"
 ID_REGION_BOUNDS_MM = (60, 60, 240, 120)
 HIL_REGION_BOUNDS_MM = (300, 60, 60, 120)
 REPORT_DIR = Path(__file__).resolve().parent
-DEFAULT_RESULTS_PATH = REPORT_DIR / "base_test_results.json"
-DEFAULT_OUTPUT_PATH = REPORT_DIR / "base_results_region.png"
+DEFAULT_RESULTS_PATH = REPORT_DIR / "hil_test_results.json"
+DEFAULT_OUTPUT_PATH = REPORT_DIR / "hil_results_region.png"
 
 
 @dataclass(frozen=True)
